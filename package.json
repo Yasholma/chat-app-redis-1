@@ -1,0 +1,28 @@
+{
+    "name": "learning-redis",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "babel-node": "babel-node --presets=env",
+        "start": "nodemon --exec npm run babel-node -- ./server/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bluebird": "^3.7.2",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "node-env-file": "^0.1.8",
+        "pug": "^2.0.4",
+        "redis": "^3.0.2",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "nodemon": "^2.0.3"
+    }
+}
